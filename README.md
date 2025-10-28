@@ -33,7 +33,7 @@ A **real-time chat app** built with the **MERN Stack**, **Socket.io**, **Tailwin
 
 ## ⚙️ Setup Guide
 
-##### First fork the repo and then copy the link from your repo
+##### First fork the repo
 
 ```bash
 git clone <your-github-repo-link>
@@ -53,7 +53,7 @@ npm install
 cp .env.example .env
 ```
 
-This is created a .env in the root folder of the backend which is contains this 
+This is created a .env in the root folder of the backend which is contains this
 
 ```env
 MONGODB_URI=
@@ -91,6 +91,7 @@ cd frontend
 
 npm install
 ```
+
 #### setup for the frontend environment Variable
 
 ```bash
@@ -121,23 +122,25 @@ Frontend → http://localhost:5173
 Backend  → http://localhost:5001
 ```
 
-----
+---
+
 ### 🐳 Setup Using Docker
 
 **Start Docker Desktop**
 Make sure the Docker application is running on your system.
 
 **Navigate to the project directory**
+
 ```bash
 cd ChatApp
 ```
 
 **Build and run the Docker containers**
 
-   ```bash
+```bash
 
    docker-compose up --build
-   ```
+```
 
 **Access the application**
 
@@ -145,20 +148,19 @@ cd ChatApp
 - Backend: http://localhost:5001
 
 **To Stop the Containers**
-When you’re done testing or developing, you can stop all running containers with:
+When you’re done development, you can stop all running containers with:
 
 ```bash
 docker-compose down
 ```
 
-----
+---
 
 ## 📬 Contact Us
 
-This project is maintained by [**Pritam Kumar**](https://github.com/Pritam-nitj).  
-If you have any ideas, suggestions, or encounter any issues, feel free to reach out!
+This project is maintained by [**Pritam Kumar**](https://github.com/Pritam-nitj).If you have any ideas, suggestions, or encounter any issues, feel free to reach out!
 
-- **LinkedIn:** [linkedin.com/in/pritam-nitj](https://www.linkedin.com/in/pritam-nitj/)  
+- **LinkedIn:** [linkedin.com/in/pritam-nitj](https://www.linkedin.com/in/pritam-nitj/)
 - **Email:** [pritamk6284987295@gmail.com](mailto:pritamk6284987295@gmail.com)
 
-💡 *Contributions, feedback, and collaboration are always welcome!*
+ *Contributions, feedback, and collaboration are always welcome!*
