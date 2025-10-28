@@ -158,7 +158,7 @@ docker-compose down
 This project is maintained by [**Pritam Kumar**](https://github.com/Pritam-nitj).  
 If you have any ideas, suggestions, or encounter any issues, feel free to reach out!
 
-- 💼 **LinkedIn:** [linkedin.com/in/pritam-nitj](https://www.linkedin.com/in/pritam-nitj/)  
-- 📧 **Email:** [pritamk6284987295@gmail.com](mailto:pritamk6284987295@gmail.com)
+- **LinkedIn:** [linkedin.com/in/pritam-nitj](https://www.linkedin.com/in/pritam-nitj/)  
+- **Email:** [pritamk6284987295@gmail.com](mailto:pritamk6284987295@gmail.com)
 
 💡 *Contributions, feedback, and collaboration are always welcome!*
