@@ -140,27 +140,6 @@ cd ChatApp
 
    docker-compose up --build
    ```
-**Access the application**
-   - 🌐 Frontend: http://localhost:5173
-   - ⚙️ Backend: http://localhost:5001
-
-**Option 2: Run both servers manually**
-
-```bash
-
-cd backend
-npm install
-
-cd frontend
-npm install
-
-cd backend
-npm run dev
-
-cd frontend
-npm run dev
-
-```
 
 **Access the application**
 
