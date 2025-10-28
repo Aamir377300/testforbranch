@@ -82,7 +82,7 @@ npm run dev
 
 ---
 
-### Setup for Backend
+### Setup for Frontend
 
 Go to the frontend directory
 
@@ -114,6 +114,16 @@ VITE_GIPHY_API=
 npm run dev
 ```
 
+#### Note
+
+```bash
+For best results and to avoid CORS issues, make sure your servers run on the following URLs:
+
+Frontend → http://localhost:5173  
+Backend  → http://localhost:5001
+```
+
+----
 ### Installation
 
 **Option 1: Run with Docker**
