@@ -53,7 +53,7 @@ npm install
 cp .env.example .env
 ```
 
-This is created a .env in the root folder of the backend which is contains this automatically
+This is created a .env in the root folder of the backend which is contains this 
 
 ```env
 MONGODB_URI=
