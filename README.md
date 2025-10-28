@@ -124,15 +124,23 @@ Backend  → http://localhost:5001
 ```
 
 ----
-### Installation
+### Setup using the Docker
 
-**Option 1: Run with Docker**
 
-1. **Build and run the Docker containers**
+
+##### First of all open the Docker application 
+
+```bash
+cd ChatApp
+```
+
+**Build and run the Docker containers**
+
    ```bash
+
    docker-compose up --build
    ```
-2. **Access the application**
+**Access the application**
    - Frontend: http://localhost:5173
    - Backend: http://localhost:5001
 
