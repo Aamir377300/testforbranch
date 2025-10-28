@@ -87,8 +87,6 @@ npm run dev
 Go to the frontend directory
 
 ```bash
-cd ..
-
 cd frontend
 
 npm install
@@ -145,3 +143,22 @@ cd ChatApp
 
 - Frontend: http://localhost:5173
 - Backend: http://localhost:5001
+
+**To Stop the Containers**
+When you’re done testing or developing, you can stop all running containers with:
+
+```bash
+docker-compose down
+```
+
+----
+
+## Contact us
+
+**This project is maintained by [**Pritam Kumar**](https://github.com/Pritam-nitj), if you have idea and any problem you face, you can reach on the LinkedIn: [linkedin.com/in/pritam-nitj/](https://www.linkedin.com/in/pritam-nitj/)**
+
+[**Aamir Belal Khan**](https://github.com/aamirbelalkhan)
+🚀 Full Stack Developer | 💬 Creator of ChatApp  
+   •  📧 Email: [aamirbelalkhan@gmail.com](mailto:aamirbelalkhan@gmail.com)  
+   •  💼 LinkedIn: [linkedin.com/in/aamirbelalkhan](https://linkedin.com/in/aamirbelalkhan)  
+   •  🌍 Portfolio: [aamirbelalkhan.dev](https://aamirbelalkhan.dev)
