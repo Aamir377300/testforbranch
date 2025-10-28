@@ -153,12 +153,12 @@ docker-compose down
 
 ----
 
-## Contact us
+## 📬 Contact Us
 
-**This project is maintained by [**Pritam Kumar**](https://github.com/Pritam-nitj), if you have idea and any problem you face, you can reach on the [LinkedIn](https://www.linkedin.com/in/pritam-nitj/) also on the [Email](mailto:pritamk6284987295@gmail.com)**
+This project is maintained by [**Pritam Kumar**](https://github.com/Pritam-nitj).  
+If you have any ideas, suggestions, or encounter any issues, feel free to reach out!
 
-[**Aamir Belal Khan**](https://github.com/aamirbelalkhan)
-🚀 Full Stack Developer | 💬 Creator of ChatApp  
-   •  📧 Email: [aamirbelalkhan@gmail.com](mailto:aamirbelalkhan@gmail.com)  
-   •  💼 LinkedIn: [linkedin.com/in/aamirbelalkhan](https://linkedin.com/in/aamirbelalkhan)  
-   •  🌍 Portfolio: [aamirbelalkhan.dev](https://aamirbelalkhan.dev)
+- 💼 **LinkedIn:** [linkedin.com/in/pritam-nitj](https://www.linkedin.com/in/pritam-nitj/)  
+- 📧 **Email:** [pritamk6284987295@gmail.com](mailto:pritamk6284987295@gmail.com)
+
+💡 *Contributions, feedback, and collaboration are always welcome!*
