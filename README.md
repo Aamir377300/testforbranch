@@ -1,4 +1,4 @@
-# 🚀 Launchpad
+# Launchpad
 
 LaunchPad is a simple, easy-to-use platform that brings students, startups, and professionals together in one place. It’s more than just a website, it’s a growing community where people can find opportunities, learn new skills, and grow in their careers.
 
