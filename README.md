@@ -21,7 +21,7 @@ Exploring:
 <table>
   <tr>
     <td align="center">
-      <img src="hacktoberfest.png" alt="hacktoberfest badge" width="150"/>
+      <img src="https://assets.holopin.io/hf2025levels/lvl5-astronaut.webp" alt="hacktoberfest badge" width="150"/>
     </td>
     <!-- <td align="center">
       <img src="badge2.png" alt="Badge 2" width="150"/>
