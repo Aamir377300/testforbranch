@@ -21,12 +21,8 @@ Exploring:
 <div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center;">
 
   <img src="https://assets.holopin.io/hf2025levels/lvl5-astronaut.webp" alt="Badge 1" width="150" />
-  <!-- <img src="badge2.png" alt="Badge 2" width="150" />
-  <img src="badge3.png" alt="Badge 3" width="150" />
-
-  <!-- <img src="badge4.png" alt="Badge 4" width="150" /> -->
-  <!-- <img src="badge5.png" alt="Badge 5" width="150" /> -->
-  <!-- <img src="badge6.png" alt="Badge 6" width="150" /> --> -->
+  <img src="TreeNation_hacktoberfest.png" alt="TreeNation_hacktoberfest" width="150" />
+  <!-- <img src="badge3.png" alt="Badge 3" width="150" /> -->
 
 </div>
 
