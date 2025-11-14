@@ -61,21 +61,3 @@ Exploring:
 
 ## 🐍 GitHub Snake (My Contribution Graph)
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Aamir377300/Aamir377300/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Aamir377300/Aamir377300/output/github-snake.svg" />
-  <img alt="github-snake" src="https://raw.githubusercontent.com/Aamir377300/Aamir377300/output/github-snake.svg" />
-</picture>
-
----
-
-## 🌐 Connect with Me
-
-<p align="center">
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aamir-belal-khan-497b92321/)
-[![LeetCode](https://img.shields.io/badge/LeetCode-%23007ACC.svg?style=for-the-badge&logo=LeetCode&logoColor=white)](https://leetcode.com/u/AamirBelal/)
-[![GitHub](https://img.shields.io/badge/GitHub-%2312100E.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Aamir377300)
-[![Portfolio](https://img.shields.io/badge/Portfolio-%23E34F26.svg?style=for-the-badge&logo=firefox-browser&logoColor=white)](https://portfolio-brown-ten-83.vercel.app/)
-
-</p>
