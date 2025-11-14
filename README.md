@@ -1,16 +1,4 @@
-<img src="banner_github.png" alt="GitHub Banner" width="100%" />
-
-## 👋 About Me
-
-I'm a curious and motivated developer who loves building and learning.  
-Currently studying at **Polaris School of Technology**, focused on real-world coding.
-
-Exploring:
-- Java, JavaScript, MERN Stack, Python  
-- Open Source, DSA, Firebase, Supabase  
-- Docker, Kubernetes  
-
-🎯 [**My Portfolio Website**](https://portfolio-brown-ten-83.vercel.app/)
+  🎯 [**My Portfolio Website**](https://portfolio-brown-ten-83.vercel.app/)
 
 ---
 
