@@ -8,7 +8,7 @@ A full-stack payment gateway application built with Django REST Framework and Re
 - **Backend API:** https://payment-gateway-integration-371z.onrender.com
 - **Admin Panel:** https://payment-gateway-integration-371z.onrender.com/admin
 
-## ✨ Features
+## Features
 
 - User authentication (signup, login, logout)
 - Secure payment processing with Razorpay
@@ -155,7 +155,7 @@ npm run dev
 
 Frontend will be available at `http://localhost:5173`
 
-## 🌍 Production Deployment
+## Production Deployment
 
 ### Backend (Render)
 
@@ -183,7 +183,7 @@ Frontend will be available at `http://localhost:5173`
    - `VITE_API_URL=https://your-backend.onrender.com/api`
 5. Deploy
 
-## 🔐 Security Features
+## Security Features
 
 - CSRF protection for all state-changing requests
 - Session-based authentication with secure cookies
@@ -209,7 +209,7 @@ Frontend will be available at `http://localhost:5173`
 - id, transaction (FK), event_type, payload (JSON)
 - message, ip_address, created_at
 
-## 🎨 Frontend Routes
+## Frontend Routes
 
 - `/` - Home page
 - `/login` - User login
@@ -238,7 +238,7 @@ Access the Django admin panel at `/admin` to:
 - Filter transactions by status
 - Search by order ID or payment ID
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch
@@ -246,7 +246,7 @@ Access the Django admin panel at `/admin` to:
 4. Push to the branch
 5. Open a Pull Request
 
-## 👨‍💻 Author
+## Author
 
 **Aamir Belal Khan**
 
