@@ -2,6 +2,14 @@
 
 A full-stack payment gateway application built with Django REST Framework and React, integrated with Razorpay for secure payment processing.
 
+## Screenshot's
+<div style="display: flex; justify-content: center; gap: 12px;">
+  <img src="photos/Dashboard.png" alt="Dashboard" width="460">
+  <img src="photos/checkout.png" alt="Checkout" width="460">
+</div>
+
+
+
 ## Live Demo
 
 - **Frontend:** https://payment-gateway-integration-zeta.vercel.app
