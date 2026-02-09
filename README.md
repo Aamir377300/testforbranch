@@ -125,7 +125,7 @@ docker compose -f docker-compose.dev.yml up --build
 ## CI/CD Pipeline (GitHub Actions)
 
 What’s implemented
-	•	Automated CI/CD using GitHub Actions
+	- Automated CI/CD using GitHub Actions
 	•	Backend test suite with 5 test cases
 	•	Tests executed using:
     ```
