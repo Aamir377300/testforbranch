@@ -106,53 +106,42 @@ VITE_API_URL=your-backend-url
 
 ```
 
-## Setup using the Docker
+## 🐳 Docker Setup (Alternative)
 
-Type the command in the main root that is the LearnEase
+Run the entire application with Docker Compose:
 
-##### Regular startup
+```bash
+
+# From the LearnEase root directory
+
+
+# First time or after dependency changes(package.json or Dockerfile.dev)
+
+docker compose-f docker-compose.dev.yml up--build
+
+
+# Regular startup
+
+docker compose-f docker-compose.dev.yml up
+
+
+# Stop containers
+
+docker compose-f docker-compose.dev.yml down
 
 ```
-docker compose -f docker-compose.dev.yml up
-```
 
-##### First time / after changes to Dockerfile or package.json
-
-```
-docker compose -f docker-compose.dev.yml up --build
-```
+This starts both frontend and backend in containers with hot-reload enabled.
 
 ## CI/CD Pipeline (GitHub Actions)
 
-What’s implemented
-	- Automated CI/CD using GitHub Actions
-	•	Backend test suite with 5 test cases
-	•	Tests executed using:
-    ```
-      npm test
-    ```
+The project uses an automated CI/CD pipeline powered by GitHub Actions to ensure reliable and stable deployments. A backend test suite consisting of five test cases is executed using
+```
+	npm test
+```
+. On every push or pull request to the main branch, the pipeline installs backend dependencies, runs all test cases, and checks for syntax and runtime errors. If any test fails or an error is detected, the deployment is immediately blocked, ensuring that broken code is never deployed. In such cases, the previously deployed version of the application remains live, preventing downtime or service disruption. Additionally, GitHub automatically sends email notifications to alert contributors about the failure. When all tests pass successfully, the backend is deployed automatically while the frontend continues to run without interruption. This process guarantees zero-downtime deployments and protects the production environment from unstable or untested changes.
 
-Pipeline Behavior
-	•	On every push / pull request to the main branch:
-	•	Backend dependencies are installed
-	•	All test cases are executed
-	•	Syntax and runtime errors are checked
-
-Failure Handling (Important)
-	•	If any test or syntax check fails:
-	•	Deployment is blocked
-	•	Previously deployed version remains live
-	•	Broken code is never deployed
-	•	Failure notifications are sent via GitHub email alerts
-
-Success Flow
-	•	All tests pass
-	•	Backend is deployed automatically
-	•	Frontend remains uninterrupted
-
-This ensures zero-downtime deployments and protects production from broken builds.
-
-## Demo Credentials
+Demo Credentials
 
 - Admin:
   Email: admin@example.com
