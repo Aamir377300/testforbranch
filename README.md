@@ -69,12 +69,7 @@ cd frontend
 npm install
 
 # Setup environment
-cp .env.local.example .env.local
-```
-
-Edit your `.env.local`:
-```env
-NEXT_PUBLIC_API_URL=http://localhost:5002/api/v1
+cp .env.example .env
 ```
 
 ```bash
@@ -153,32 +148,10 @@ Want to try them out? Check the interactive docs at `http://localhost:5002/api-d
 3. Click "Authorize" and paste your JWT token
 4. Try out any endpoint right in your browser!
 
-### Using Postman or cURL
 
-**Register a user:**
-```bash
-curl -X POST http://localhost:5002/api/v1/auth/register \
-  -H "Content-Type: application/json" \
-  -d '{
-    "name": "John Doe",
-    "email": "john@example.com",
-    "password": "password123"
-  }'
-```
 
-**Create a task:**
-```bash
-curl -X POST http://localhost:5002/api/v1/tasks \
-  -H "Content-Type: application/json" \
-  -H "Authorization: Bearer YOUR_JWT_TOKEN" \
-  -d '{
-    "title": "Build something awesome",
-    "description": "Make it scalable too!",
-    "status": "pending"
-  }'
-```
 
-## Project Structure (Where Everything Lives)
+## Project Structure
 
 ```
 task-management-system/
@@ -222,7 +195,7 @@ Right now, we're running a monolithic architecture with JWT authentication. This
 
 3. **Clean Architecture**: Separation of concerns means you can optimize or replace individual components without touching everything else.
 
-### Level 1: Vertical Scaling (The Easy Win)
+### Vertical Scaling (The Easy Win)
 
 **What it is**: Upgrade your server hardware - more CPU, more RAM, faster disk.
 
@@ -241,7 +214,7 @@ Right now, we're running a monolithic architecture with JWT authentication. This
 **Cons**: There's a ceiling - you can't scale infinitely  
 **Cost**: $10/month → $40/month → $80/month
 
-### Level 2: Horizontal Scaling with Load Balancer (The Real Deal)
+### Horizontal Scaling with Load Balancer (The Real Deal)
 
 **What it is**: Run multiple instances of your app behind a load balancer.
 
@@ -262,7 +235,7 @@ Right now, we're running a monolithic architecture with JWT authentication. This
                   [MongoDB]
               (Single Instance)
 ```
-### Level 4: Caching Layer (Speed Boost)
+### Caching Layer (Speed Boost)
 
 **Add Redis for frequently accessed data**:
 
@@ -280,43 +253,5 @@ Right now, we're running a monolithic architecture with JWT authentication. This
 Return      Query MongoDB
 Cached   →   Update Cache
 Data          Return Data
-
-
-
-### Database Scaling (When Data Gets Big)
-
-**Problem**: Single MongoDB instance becomes a bottleneck.
-
-**Solution 1: MongoDB Replica Set** (High Availability)
-
-```
-                [Primary]
-                   ↓
-        ┌──────────┼──────────┐
-        ↓          ↓          ↓
-   [Secondary] [Secondary] [Secondary]
-   (Read)      (Read)      (Read)
 ```
 
-**How it works**:
-- Primary handles all writes
-- Secondaries replicate data and handle reads
-- If primary fails, a secondary becomes primary automatically
-
-
-
-
-## What I Learned Building This
-
-- JWT authentication and why it's perfect for scalable apps
-- The importance of proper error handling (users hate cryptic errors!)
-- How role-based access control works in practice
-- Why API versioning matters from day one
-- Database indexing can make or break performance
-- Documentation is as important as code
-- TypeScript catches so many bugs before they happen
-- Scalability isn't just about handling more users - it's about architecture
-
-
-
-just make it look good for the readme.md
