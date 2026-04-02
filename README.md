@@ -76,7 +76,7 @@ Get a free token at [huggingface.co/settings/tokens](https://huggingface.co/sett
 Run this once to build the vector store:
 
 ```bash
-python3 scripts/ingest_III.py
+python3 scripts/ingest.py
 ```
 
 This creates `data/vector_store/embeddings.json`.
